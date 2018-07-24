@@ -15,7 +15,58 @@ body{
     font-size: 3.5em;
     text-shadow: -4px 2px 4px saddlebrown;
 }
-
+.text-center{
+  text-align: center;
+}
+.m-t-50{
+  margin-top: 50px;
+}
+.m-t-b-50{
+  margin: 50px 0px;
+}
+.m-b-20{
+  margin-bottom: 20px;
+}
+.title{
+  background-color: goldenrod;
+  width: 60vw;
+  padding:10px 0;
+  border-radius: 10px;
+}
+.title-p{
+  padding: 0 20px;
+  font-weight: bold;
+  color: #000000;
+}
+.content{
+  background-color: darkgoldenrod;
+  width: 60vw;
+  padding: 40px 0;
+  border-radius: 10px;
+}
+.content-p{
+  padding: 0 20px;
+}
+.modal-click-box{
+  width: 60vw;
+  background-color: darkgoldenrod;
+  text-align: center;
+  padding: 40px 0px;
+  border-radius: 10px;
+}
+.click-button{
+  padding: 10px 25px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.close{
+  text-align: right;
+  margin:0 20px;
+  color: #000000;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
 .container-fluid{
   width: 100%;
 }
@@ -45,6 +96,8 @@ body{
 
 .nav-item-toggle {
   display: none;
+  font-size: 25px;
+  color: #ffffff;
 }
 .modal {
     display: none;
